@@ -1,0 +1,42 @@
+.contact{
+    .image{
+        display: flex;
+        justify-content: center;        
+        img{
+            display: flex;
+            width: 1000px;
+            height: 400px;
+            object-fit: fill;
+        }
+    }
+
+    .input{
+        padding: 10px;
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
+        input{
+            width: 800px;
+            height: 80px;
+            padding: 10px;
+            border: black 2px solid;
+            color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    button{
+        width: 100px;
+        height: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        background-color: lightcyan;
+    }
+}
+}

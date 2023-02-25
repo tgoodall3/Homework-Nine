@@ -1,0 +1,18 @@
+.about{
+    .images{
+        display: flex;
+        justify-content: space-evenly;
+
+        img{
+            border-radius: 50%;
+        }
+    }
+
+    .text{
+        display: flex;
+        justify-content: space-evenly;
+      
+    }
+
+    
+}

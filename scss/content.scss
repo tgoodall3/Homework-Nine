@@ -1,0 +1,33 @@
+#app{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lavender;
+
+    h1{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .images{
+        display: flex;
+        justify-content: space-evenly;
+    img{
+        display: flex;
+        height: 300px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+}
+
+p{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+}
